@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>galery</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css"/>
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+ <!-- Custom styles for this template -->
+ <link href="css/heroes.css" rel="stylesheet">
+<link rel="canonical" href="http:getbootstrap.com/docs/5.3/examples/starter-template/">
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+<style>
+   body{
+        background-color: peachpuff;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+  .overlay-dark::before {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.5);
+   z-index: 1;
+ }
+ </style>
+</head>
+<body>
+     <!--navbar-->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">PT Nashvva</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="galery.html">Galery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="contact2.html">Contact Us</a>
+              </li>     
+            </ul>
+            <div class="d-lg-flex col-lg-3 justify-content-lg-end">
+              <a class="btn btn-outline-light" href="login.html">Logout</a>
+            </div>
+          </div>
+        </div>
+    </nav>
+      <!--akhir navbar-->
+
+       <!--carousel-->
+    <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="overlay-dark"><img src="img/kosmet.jpg" style="width: 100%; height: 100%;" alt="">
+            </div>
+            <div class="container">
+              <div class="carousel-caption text-white text-start">
+                <h1>Kosmetik Dan Skincare Terbaik Ada Di Sini !!</h1>
+                <p class="opacity-75">Tertarik dengan bisnis kosmetik dan skincare?? Yuk gabung dengan PT.Nashvva</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Beranda</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="overlay-dark"><img src="img/7564615.jpg" style="width: 100%; height: 100%;" alt="">
+            </div>
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Punya Masalah Dengan Kulit Kering Atau Berjerawat?</h1>
+                <p>Temukan solusinya dengan produk skincare kami yang telah terbukti ampuh!</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Biodata</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="overlay-dark"><img src="img/7635545.jpg" style="width: 100%; height: 100%;" alt="">
+            </div>
+            <div class="container">
+              <div class="carousel-caption text-white text-end">
+                <h1>Bingung Dengan Produk Kami ?</h1>
+                <p>Tersedia dalam berbagai varian untuk memenuhi kebutuhan kulit normal, kering, berjerawat juga kulit sensitive.</p>
+                <p><a class="btn btn-lg btn-primary" href="#">lihat lah!!</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+      <!--akhir carousel-->
+    
+      <!--features galery-->
+    <section class="galery">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col">
+              <h1>My Galery</h1>
+              <hr>
+            </div>
+          </div>
+          
+        <div class="album py-5 bg-body-tertiary">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="img/lihat.jpg"  height="90%" width="90%" alt="gambar galery">
+            <div class="card-body">
+              <p class="card-text">Seluruh varian serum yang kamu butuhkan ada di sini!</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Want to buy</button>
+                </div>
+                <small class="text-body-secondary">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+           <img src="img/toner.jpg"   height="90%" width="90%"  alt="gambar galery">
+            <div class="card-body">
+              <p class="card-text">Skincare Pemula</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Want to Buy</button>
+                </div>
+                <small class="text-body-secondary">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+           <img src="img/skincare.jpg"  height="73%" width="72%" alt="gambar galery">
+            <div class="card-body">
+              <p class="card-text">Paket Skincare terlengkap</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Want to Buy</button>
+                </div>
+                <small class="text-body-secondary">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="img/makeup.jpg"  height="75%" width="75%" alt="gambar galery">
+            <div class="card-body">
+              <p class="card-text">Paket Make Up Terlengkap</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Want to Buy</button>
+                </div>
+                <small class="text-body-secondary">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="img/makeup2.jpg" height="89%" width="89%" alt="">
+            <div class="card-body">
+              <p class="card-text">Natural Make Up</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Want to Buy</button>
+                </div>
+                <small class="text-body-secondary">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+          <img src="img/lips.jpg"  height="93%" width="93%"alt="gambar galery">
+            <div class="card-body">
+              <p class="card-text">1000 Varian Shade Lipstik</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Want to Buy</button>
+                </div>
+                <small class="text-body-secondary">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+           <img src="img/skincare1.jpg" height="85%" width="85%" alt="gambar galery">
+            <div class="card-body">
+              <p class="card-text">Varian Terpopuler !!</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Want to Buy</button>
+                </div>
+                <small class="text-body-secondary">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="img/wow.jpg" height="85%" width="85%" alt="gambar galery">
+            <div class="card-body">
+              <p class="card-text">Produk terbaru kami! PINX CLOUD.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Want to Buy</button>
+                </div>
+                <small class="text-body-secondary">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="img/makeup4.jpg"  height="85%" width="85%"alt="gambar galery">
+            <div class="card-body">
+              <p class="card-text">Blush On Dengan Formula Baru Dan Tersedia Dalam Berbagai Macam Warna Yang Pasti Akan Sesuai Dengan Warna Tone Kulit Anda.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Want to Buy</button>
+                </div>
+                <small class="text-body-secondary">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+        </div>
+
+        </div>
+    </section>
+      <!--akhir features galery-->
+     
+      <!--footer-->
+    <footer class="py-3 my-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+          </ul>
+          <p class="text-center text-body-secondary">&copy; 2024 PT.Nashvva, Inc</p>
+    </footer>
+      <!--akhir footer-->
+
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
